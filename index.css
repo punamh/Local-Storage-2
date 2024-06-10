@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    background-color:#008080;
+}
+nav a{
+    color: white;
+}
+#container{
+    display: flex;
+    justify-content: space-around;
+    height:100vh;
+    background-image: linear-gradient(#9cd6e0 , #bdc1dc);
+}
+.addTodo{
+    width: 350px;
+    height: 300px;
+    text-align: center;
+    margin-top: 15px;
+    gap: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.addTodo > select{
+    margin: 70px 0px;
+}
+#input1,#options{
+    height: 30px;
+}
+.addTodo > button{
+width: 200px;
+height: 35px;
+color: white;
+background-color:#4caf50;
+border-radius: 5px;
+border: none;
+}
+table, th, td {
+    padding: 10px;
+  }
+  th{
+    background-color:#4caf50;
+    color: white;
+  }

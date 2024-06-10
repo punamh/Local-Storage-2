@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#category{
+display: flex;
+justify-content: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    background-color:#008080;
+}
+#container{
+    height:100vh;
+    background-image: linear-gradient(#9cd6e0 , #bdc1dc);
+}
+table, th, td {
+    padding: 10px;
+  }
+  th{
+    background-color:#4caf50;
+    color: white;
+  }
+  .tabledata{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+  #select1, #select2{
+    height: 30px;
+    margin: 10px 0px 10px;
+  }
